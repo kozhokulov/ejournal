@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_journal">
+
+    <fragment
+        android:id="@+id/nav_journal"
+        android:name="com.example.e_journal.fragments.journal.JournalFragment"
+        android:label="@string/menu_journal"
+        tools:layout="@layout/fragment_journal" />
+
+    <fragment
+        android:id="@+id/nav_documents"
+        android:name="com.example.e_journal.fragments.documents.DocumentsFragment"
+        android:label="@string/menu_documents"
+        tools:layout="@layout/fragment_documents" />
+
+    <fragment
+        android:id="@+id/nav_groups"
+        android:name="com.example.e_journal.fragments.groups"
+        android:label="@string/menu_groups"
+        tools:layout="@layout/fragment_groups" />
+    <fragment
+        android:id="@+id/nav_adding"
+        android:name="com.example.e_journal.fragments.adding"
+        android:label="@string/menu_adding"
+        tools:layout="@layout/fragment_adding" />
+    <fragment
+        android:id="@+id/nav_find"
+        android:name="com.example.e_journal.fragments.find"
+        android:label="@string/menu_find"
+        tools:layout="@layout/fragment_find" />
+</navigation>

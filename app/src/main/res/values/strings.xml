@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">e-journal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">E-journal</string>
+    <string name="nav_header_subtitle">© kvoskrebentsev@mail.ru</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_journal">Журнал</string>
+    <string name="menu_documents">Документы</string>
+    <string name="menu_adding">Добавление</string>
+    <string name="menu_groups">Группы</string>
+    <string name="menu_find">Поиск</string>
+    <!--Строки для ЖУРНАЛ-->
+    <string name="text_choose_class">Выберите класс</string>
+    <string name="text_choose_date">Введите дату</string>
+    <string name="text_choose_lesson">Выберите предмет</string>
+    <string name="text_annotation"></string>
+    <string name="button_journal_exit">Завершить просмотр</string>
+    <!--Строки для ДОКУМЕНТЫ-->
+    <string name="label_instruction">Выберите документ, который хотите сгенерировать</string>
+    <string name="label_classes">Выберите номер класса</string>
+    <string-array name="spinner_documents">
+        <item>Список преподавателей с указанием квалификации</item>
+        <item>Список школьников с указанием возраста</item>
+        <item>Список всех людей, имеющих доступ в школу</item>
+        <item>Список учеников класса вместе с родителями</item>
+    </string-array>
+    <string name="button_generate">Сгенерировать документ</string>
+    <string name="button_clear">Очистить</string>
+    <!--Строки для ГРУППЫ-->
+    <string name="label_group_type">Выберите тип группы</string>
+    <string-array name="spinner_group_type">
+        <item>группа</item>
+    </string-array>
+    <string name="label_group_name">Выберите группу</string>
+    <string name="button_redactor">Режим редактирования</string>
+    <!--Строки для ГРУППЫ (CroupEditorActivity)-->
+    <string name="label_add_learner">Выберите ученика, который будет добавлен в группу</string>
+    <string name="label_delete_learner">Выберите ученика, который будет удалён из группы</string>
+    <string name="label_teacher">Выберите учителя группы</string>
+    <string name="button_accept_adding">Подтвердить добавление</string>
+    <string name="button_accept_deleting">Подтвердить удаление</string>
+    <string name="button_exit">Выйти из режима редактирования</string>
+    <string name="text_schedule_instruction">Изменение расписания класса</string>
+    <string name="text_choose_dayOfWeek">Выберите день недели</string>
+    <string name="text_choose_number_lessons">Выберите количество уроков</string>
+    <string name="button_edit_schedule">Изменить расписание</string>
+    <string name="button_create_form">Создать форму для ввода расписания</string>
+
+    <string-array name="spinner_week_days">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <string-array name="spinner_number_lessons">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <!--Строки для ДОБАВЛЕНИЯ-->
+    <string name="label_add">Выберите категорию объекта, который будет добавлен</string>
+    <string name="button_continue">Продолжить</string>
+    <string name="button_accept">Подтвердить</string>
+    <string name="button_cancel">Отмена</string>
+    <string-array name="spinner_categories">
+        <item>Ученик</item>
+        <item>Учитель</item>
+        <item>Администратор</item>
+    </string-array>
+    <!--Строки для РАБОТЫ С БАЗОЙ ДАННЫХ-->
+    <string name="action_save">Сохранить в базу данных</string>
+    <string name="action_download">Загрузить из базы данных</string>
+    <string name="action_access">Получить доступ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Строки для ПОИСК-->
+    <string name="text_find">Выберите параметр объекта, по которому будет проведен поиск</string>
+    <string-array name="spinner_parameter">
+        <item>ФИО</item>
+        <item>ID</item>
+        <item>Номер телефона</item>
+    </string-array>
+    <string name="button_find">Начать поиск</string>
+    <string name="hint_find">Введите значение</string>
+
+</resources>
